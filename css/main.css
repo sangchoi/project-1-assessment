@@ -1,0 +1,47 @@
+
+main {
+    font-size: 2em;
+    font-family: helvetica;
+    text-align: center;
+    margin: 50px 0 0 0;
+    display: grid;
+    grid-template-rows: 25% 25%;
+    grid-template-areas: "main";
+}
+
+#addButton {
+    background-color: rgb(196, 194, 194);
+    font-size: 2em;
+    color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 25%;
+}
+
+#addButton:hover {
+    background-color: white;
+    color: rgb(196, 194, 194);
+}
+
+#input {
+    font-size: 2em;
+    color: black;
+    width: 200px;
+    height: 80px;
+    text-align: center
+    
+}
+
+#subtractButton {
+    background-color: rgb(196, 194, 194);
+    font-size: 2em;
+    color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 25%;
+}
+
+#subtractButton:hover {
+    background-color: white;
+    color: rgb(196, 194, 194);
+}
