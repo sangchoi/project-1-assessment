@@ -16,6 +16,12 @@ addButton.addEventListener("click", function(e){
     var newNumber = parseInt(number) + parseInt(input.value);
     num.textContent = newNumber;
     console.log(newNumber);
+
+    if (parseInt(num.textContent) < 0) {
+        num.style.color = "red";
+        } else {
+            num.style.color = "black";
+        }
 });
 
 subtractButton.addEventListener("click", function(e){
@@ -24,5 +30,11 @@ subtractButton.addEventListener("click", function(e){
     var newNumber = parseInt(number) - parseInt(input.value);
     num.textContent = newNumber;
     console.log(newNumber);
+
+    if (parseInt(num.textContent) < 0) {
+    num.style.color = "red";
+    } else {
+        num.style.color = "black";
+    }
 
 });
